@@ -1,0 +1,14 @@
+{
+  "accounts": [
+    {
+      "username": "user1",
+      "password": "pass123",
+      "expires_at": "2026-12-31"
+    },
+    {
+      "username": "user2",
+      "password": "secure456",
+      "expires_at": "2027-06-30"
+    }
+  ]
+}
