@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Palms Resort & Spa | Luxury Hotel in Mirissa, Sri Lanka</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-serif { font-family: 'Playfair Display', serif; }
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <!-- Sticky Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <span class="text-2xl font-serif font-bold text-blue-900 tracking-tighter">AZURE PALMS</span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-sm font-medium hover:text-blue-600 transition">Home</a>
+                    <a href="#about" class="text-sm font-medium hover:text-blue-600 transition">About</a>
+                    <a href="#rooms" class="text-sm font-medium hover:text-blue-600 transition">Rooms</a>
+                    <a href="#gallery" class="text-sm font-medium hover:text-blue-600 transition">Gallery</a>
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Book Now</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-600 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen flex items-center justify-center text-white overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&q=80&w=2000" alt="Resort View" class="w-full h-full object-cover">
+            <div class="absolute inset-0 hero-gradient"></div>
+        </div>
+        
+        <div class="relative z-10 text-center px-4 max-w-4xl">
+            <div class="flex items-center justify-center space-x-1 text-yellow-400 mb-4">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                <span class="text-white text-xs uppercase tracking-widest ml-2">Luxury Boutique Resort</span>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">Azure Palms Resort & Spa</h1>
+            <p class="text-xl md:text-2xl mb-10 font-light text-gray-100 italic">Experience the ultimate serenity on the shores of Mirissa</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#rooms" class="bg-white text-blue-900 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition shadow-xl">Explore Suites</a>
+                <a href="tel:+94771234567" class="bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-blue-700 transition flex items-center justify-center gap-2 shadow-xl">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                    Call Us Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="py-12 bg-blue-50">
+        <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-around gap-8 text-center">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md mb-3 text-blue-600">✓</div>
+                <span class="text-sm font-semibold">Free High-Speed Wi-Fi</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md mb-3 text-blue-600">✓</div>
+                <span class="text-sm font-semibold">Infinity Pool Access</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md mb-3 text-blue-600">✓</div>
+                <span class="text-sm font-semibold">Beachfront Dining</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md mb-3 text-blue-600">✓</div>
+                <span class="text-sm font-semibold">24/7 Concierge</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-24">
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=800" alt="Resort Pool" class="rounded-3xl shadow-2xl">
+                <div class="absolute -bottom-8 -right-8 bg-blue-900 text-white p-8 rounded-2xl hidden lg:block shadow-xl">
+                    <p class="text-3xl font-bold">4.8</p>
+                    <p class="text-xs uppercase tracking-widest text-blue-300">Google Reviews</p>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-blue-600 font-bold uppercase tracking-widest mb-4">Our Story</h4>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">Sri Lankan Luxury Reimagined</h2>
+                <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                    Azure Palms Resort & Spa is a sanctuary of peace nestled along the pristine southern coast of Sri Lanka. We offer an exclusive escape where modern elegance meets traditional island hospitality. 
+                </p>
+                <div class="space-y-4 mb-10">
+                    <div class="flex items-center gap-3">
+                        <div class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xs">✓</div>
+                        <span class="font-medium">Prime location on Mirissa Beach</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xs">✓</div>
+                        <span class="font-medium">Eco-friendly & Sustainable practices</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xs">✓</div>
+                        <span class="font-medium">Curated local cultural experiences</span>
+                    </div>
+                </div>
+                <a href="#gallery" class="inline-block text-blue-600 font-bold border-b-2 border-blue-600 pb-1 hover:text-blue-800 transition">View our photo gallery &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms -->
+    <section id="rooms" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">Our Accommodations</h2>
+            <p class="text-gray-500 max-w-2xl mx-auto">Thoughtfully designed spaces that blend indoor comfort with the breathtaking beauty of the Indian Ocean.</p>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+            <!-- Room 1 -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition group">
+                <div class="h-64 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full font-bold text-sm">$180/night</div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold mb-3">Deluxe Ocean View</h3>
+                    <p class="text-gray-500 text-sm mb-6">Wake up to the sound of waves in our spacious deluxe rooms featuring private balconies.</p>
+                    <a href="#contact" class="block w-full py-3 bg-slate-900 text-white rounded-xl text-center font-bold hover:bg-blue-600 transition">Book Now</a>
+                </div>
+            </div>
+            <!-- Room 2 -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition group">
+                <div class="h-64 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full font-bold text-sm">$250/night</div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold mb-3">Palm Garden Suite</h3>
+                    <p class="text-gray-500 text-sm mb-6">Experience lush tranquility with a private garden area and outdoor rain shower.</p>
+                    <a href="#contact" class="block w-full py-3 bg-slate-900 text-white rounded-xl text-center font-bold hover:bg-blue-600 transition">Book Now</a>
+                </div>
+            </div>
+            <!-- Room 3 -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition group">
+                <div class="h-64 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full font-bold text-sm">$450/night</div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold mb-3">Presidential Villa</h3>
+                    <p class="text-gray-500 text-sm mb-6">The pinnacle of luxury with a private infinity pool and dedicated butler service.</p>
+                    <a href="#contact" class="block w-full py-3 bg-slate-900 text-white rounded-xl text-center font-bold hover:bg-blue-600 transition">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div>
+                    <h2 class="text-4xl font-bold mb-4">Guest Love</h2>
+                    <div class="flex items-center gap-3">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                        <span class="text-gray-500 font-medium">4.8 / 5 on Google</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100">
+                    <p class="text-gray-600 mb-8 italic">"An absolute paradise. The views are incredible and the staff makes you feel like royalty. Will definitely return!"</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-blue-200 rounded-full"></div>
+                        <div>
+                            <p class="font-bold">Sarah Jenkins</p>
+                            <p class="text-xs text-gray-400">United Kingdom</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100">
+                    <p class="text-gray-600 mb-8 italic">"Best location in Mirissa. Close enough to the action but quiet enough for a peaceful sleep. Seafood is amazing!"</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-blue-200 rounded-full"></div>
+                        <div>
+                            <p class="font-bold">Michael Chen</p>
+                            <p class="text-xs text-gray-400">Singapore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100">
+                    <p class="text-gray-600 mb-8 italic">"Sustainable luxury at its best. Loved the no-plastic policy and the beautiful local architecture."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-blue-200 rounded-full"></div>
+                        <div>
+                            <p class="font-bold">Anil Perera</p>
+                            <p class="text-xs text-gray-400">Sri Lanka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section id="contact" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div>
+                    <h2 class="text-4xl font-bold mb-8">Ready to visit?</h2>
+                    <p class="text-gray-400 mb-12 text-lg">Contact our reservations team directly for the best rates and personalized packages.</p>
+                    
+                    <div class="space-y-8">
+                        <div class="flex items-start gap-6">
+                            <div class="p-4 bg-white/10 rounded-2xl">📍</div>
+                            <div>
+                                <h4 class="font-bold text-xl">Location</h4>
+                                <p class="text-gray-400">No. 123 Coastal Road, Mirissa 81740, Sri Lanka</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-6">
+                            <div class="p-4 bg-white/10 rounded-2xl">📞</div>
+                            <div>
+                                <h4 class="font-bold text-xl">Phone</h4>
+                                <p class="text-gray-400">+94 77 123 4567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-6">
+                            <div class="p-4 bg-white/10 rounded-2xl">✉️</div>
+                            <div>
+                                <h4 class="font-bold text-xl">Email</h4>
+                                <p class="text-gray-400">hello@azurepalmsmirissa.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12 h-64 bg-slate-800 rounded-3xl overflow-hidden">
+                        <!-- Placeholder for Map -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15873.344405295843!2d80.4578!3d5.9483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae113e71d37b583%3A0xc0098f98d360067c!2sMirissa%20Beach!5e0!3m2!1sen!2slk!4v1700000000000!5m2!1sen!2slk" 
+                            width="100%" height="100%" style="border:0; filter: grayscale(1) invert(1);" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-white text-slate-900 p-10 rounded-3xl shadow-2xl">
+                    <h3 class="text-2xl font-bold mb-8 text-center">Inquiry Form</h3>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Name</label>
+                                <input type="text" class="w-full px-4 py-3 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-blue-500 transition" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Email</label>
+                                <input type="email" class="w-full px-4 py-3 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-blue-500 transition" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Check-in</label>
+                                <input type="date" class="w-full px-4 py-3 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-blue-500 transition">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Guests</label>
+                                <select class="w-full px-4 py-3 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-blue-500 transition">
+                                    <option>1 Adult</option>
+                                    <option selected>2 Adults</option>
+                                    <option>Family (2+2)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Message</label>
+                            <textarea rows="4" class="w-full px-4 py-3 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-blue-500 transition" placeholder="Any special requests?"></textarea>
+                        </div>
+                        <button class="w-full py-4 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition shadow-xl shadow-blue-200">Request Availability</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-white py-12 text-center">
+        <p class="text-gray-500 mb-6">© 2026 Azure Palms Resort & Spa Mirissa. All rights reserved.</p>
+        <div class="flex justify-center gap-8">
+            <a href="#" class="text-gray-400 hover:text-white transition">Instagram</a>
+            <a href="#" class="text-gray-400 hover:text-white transition">Facebook</a>
+            <a href="#" class="text-gray-400 hover:text-white transition">Twitter</a>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fixed bottom-8 right-8 z-50 flex flex-col gap-4">
+        <a href="https://wa.me/94771234567" class="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white shadow-2xl hover:scale-110 transition animate-bounce">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.185-.573c.948.517 2.094.887 3.144.887 3.181 0 5.767-2.586 5.767-5.766 0-3.18-2.586-5.766-5.767-5.766zm3.375 8.202c-.147.415-.852.767-1.2.814-.347.046-.78.041-1.284-.117-.506-.158-1.23-.49-2.048-1.124-.819-.633-1.496-1.503-1.898-2.147-.402-.644-.452-1.071-.452-1.071l-.003-.013c0-.01.011-.013.011-.013.039-.085.11-.202.164-.263.054-.061.071-.104.111-.173.04-.069.02-.13.01-.194-.011-.064-.097-.234-.132-.321-.035-.087-.068-.152-.093-.205-.03-.06-.05-.11-.09-.11h-.3c-.15 0-.35.05-.5.2-.15.15-.6 0-.85.45s-.35.9-.35.9-.033.093-.033.093c.121.724.505 1.488 1.135 2.185.63.697 1.486 1.341 2.348 1.63.862.289 1.442.24 1.942.164.5-.075.852-.365.947-.63.095-.265.095-.495.066-.54-.029-.045-.106-.073-.224-.133z"/></svg>
+        </a>
+        <a href="tel:+94771234567" class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center text-white shadow-2xl hover:scale-110 transition">
+            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+        </a>
+    </div>
+
+</body>
+</html>
